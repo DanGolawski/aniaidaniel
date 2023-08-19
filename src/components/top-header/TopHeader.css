@@ -1,0 +1,10 @@
+.main-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding-top: 10px;
+}
+
+.logo {
+   object-fit: scale-down;
+}

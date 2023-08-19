@@ -1,0 +1,21 @@
+.main-container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.offer-grid {
+   flex: 1;
+   display: grid;
+   grid-template-columns: 33% 33% 33%;
+   overflow-x: hidden;
+}
+
+.offer-element-wrapper {
+   padding: 10px;
+   vertical-align: bottom;
+}
+
+.person-image {
+   height: 100%
+}
