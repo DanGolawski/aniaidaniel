@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/aniaidaniel/static/css/main.daa3fade.css",
-    "main.js": "/aniaidaniel/static/js/main.7d59f3e0.js",
+    "main.css": "/aniaidaniel/static/css/main.85e85c9f.css",
+    "main.js": "/aniaidaniel/static/js/main.ca9ea6e1.js",
     "static/js/787.04d72c14.chunk.js": "/aniaidaniel/static/js/787.04d72c14.chunk.js",
     "static/media/danielwhite.jpg": "/aniaidaniel/static/media/danielwhite.d67549566a8aab131738.jpg",
     "static/media/aniawhite.jpg": "/aniaidaniel/static/media/aniawhite.5220577d28e41deff724.jpg",
+    "static/media/mobile.png": "/aniaidaniel/static/media/mobile.d2fc2a1f87fd45fb49a4.png",
+    "static/media/instagram.png": "/aniaidaniel/static/media/instagram.b1c42c69893c269c92b0.png",
+    "static/media/tiktok.png": "/aniaidaniel/static/media/tiktok.f37e62d412b33cc41f64.png",
+    "static/media/aniadaniellogo.png": "/aniaidaniel/static/media/aniadaniellogo.0636181fdcaed2eb8533.png",
+    "static/media/youtube.png": "/aniaidaniel/static/media/youtube.3c3dad3fa01c352dc698.png",
     "static/media/logo.svg": "/aniaidaniel/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/aniaidaniel/index.html",
-    "main.daa3fade.css.map": "/aniaidaniel/static/css/main.daa3fade.css.map",
-    "main.7d59f3e0.js.map": "/aniaidaniel/static/js/main.7d59f3e0.js.map",
+    "main.85e85c9f.css.map": "/aniaidaniel/static/css/main.85e85c9f.css.map",
+    "main.ca9ea6e1.js.map": "/aniaidaniel/static/js/main.ca9ea6e1.js.map",
     "787.04d72c14.chunk.js.map": "/aniaidaniel/static/js/787.04d72c14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.daa3fade.css",
-    "static/js/main.7d59f3e0.js"
+    "static/css/main.85e85c9f.css",
+    "static/js/main.ca9ea6e1.js"
   ]
 }
