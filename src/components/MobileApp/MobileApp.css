@@ -1,0 +1,22 @@
+.my-container {
+   display: flex;
+   flex-direction: row;
+   background: #023d69;
+   align-items: center;
+}
+
+.mobile-app {
+   height: 100%;
+}
+
+.app-description-container {
+   color: white;
+}
+
+.app-description-container .main-paragraph {
+   font-size: 3rem;
+}
+
+.app-description-container p {
+   font-size: 2rem;
+}

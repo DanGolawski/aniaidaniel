@@ -1,0 +1,23 @@
+.offer-main-container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.offer-container {
+   flex: 1;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.offer-element-wrapper {
+   width: 30%;
+   padding: 20px;
+   vertical-align: bottom;
+}
+
+.person-image {
+   height: 100%
+}

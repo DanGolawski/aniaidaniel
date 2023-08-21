@@ -1,0 +1,14 @@
+.row {
+   height: 40vh;
+   padding: 5vh;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   font-size: 2rem;
+   color: #023d69;
+}
+
+.profile-image {
+   height: 100%;
+   margin-right: 20px;
+}

@@ -1,14 +1,22 @@
 import './Additionals.css';
 import daniel from '../../resources/danielwhite.jpg';
-import Additional from '../Additional/Additional';
+import ListElement from '../list-element/ListElement';
+
+const additionalTitles = [
+   'Dedykowaną aplikację z zadaniami',
+   'Spotkania zdalne, w których piszesz razem z korepetytorem',
+   'Spotkania zorganizowane pod twoje potrzeby'
+]
 
 function Additionals(props) {
    return (
-      <div className='main-container page'>
+      <div className='additionals-main-container page'>
          <img className='person-image' src={daniel}></img>
-         <Additional title='Dedykowaną aplikację z zadaniami'></Additional>
-         <Additional title='Spotkania zdalne, w których piszesz razem z korepetytorem'></Additional>
-         <Additional title='Spotkania zorganizowane pod twoje potrzeby'></Additional>
+         <div className='additionals-container'>
+         {
+            additionalTitles.map(title => <ListElement title={title}></ListElement>)
+         }
+         </div>
       </div>
    );
 }

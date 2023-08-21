@@ -1,4 +1,13 @@
-.main-container {
+.additionals-main-container {
    display: flex;
    flex-direction: row;
+   align-items: center;
+}
+
+.additionals-container {
+   flex: 1;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
 }
