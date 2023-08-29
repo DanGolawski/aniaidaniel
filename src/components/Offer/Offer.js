@@ -19,7 +19,7 @@ function Offer(props) {
                offerTitles.map(title => <ListElement title={title}></ListElement>)
             }
          </div>
-         <img className='person-image' src={ania}></img>
+         <img className='offer-person-image' src={ania}></img>
       </div>
    );
 }

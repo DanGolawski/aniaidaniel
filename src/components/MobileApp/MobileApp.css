@@ -1,8 +1,10 @@
-.my-container {
+.mobile-container {
    display: flex;
    flex-direction: row;
    background: #023d69;
    align-items: center;
+   min-width: 1500px;
+   padding-left: 2vw;
 }
 
 .mobile-app {
@@ -11,12 +13,66 @@
 
 .app-description-container {
    color: white;
+   min-width: 400px;
+   padding-left: 10vw;
+   padding-right: 5vw;
 }
 
 .app-description-container .main-paragraph {
-   font-size: 3rem;
+   font-size: 3vw;
 }
 
 .app-description-container p {
    font-size: 2rem;
+}
+
+.button-container {
+   margin: auto;
+   margin-top: 40px;
+   width: 50%;
+}
+
+@media only screen and (max-width: 1500px) {
+   .app-description-container {
+      padding-right: 10vw;
+   }
+}
+
+@media only screen and (max-width: 1300px) {
+   .app-description-container {
+      padding-right: 20vw;
+   }
+}
+
+@media only screen and (max-width: 1100px) {
+   .app-description-container .main-paragraph {
+      font-size: 4vw;
+   }
+   .app-description-container {
+      padding-right: 45vw;
+   }
+}
+
+@media only screen and (max-width: 800px) {
+   .mobile-container {
+      position: relative;
+      min-width: unset;
+   }
+   .mobile-app {
+      position: absolute;
+      opacity: 0.2;
+      margin: auto;
+   }
+   .app-description-container {
+      padding: 5vw;
+      z-index: 10;
+      min-width: unset;
+   }
+   .app-description-container .main-paragraph {
+      font-size: 6vw;
+   }
+
+   .app-description-container p {
+      font-size: 6vw;
+   }
 }

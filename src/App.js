@@ -9,7 +9,7 @@ import WhoWeAre from './components/Who-We-Are/WhoWeAre';
 
 function App() {
   return (
-    <div>
+    <div class='components-container'>
       <Home></Home>
       <h1 className='page-header blue-header' id='offer'>Nasza Oferta:</h1>
       <Offer></Offer>

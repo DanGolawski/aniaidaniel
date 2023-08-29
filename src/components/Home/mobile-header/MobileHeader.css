@@ -1,0 +1,61 @@
+.mobile-header-container {
+   position: absolute;
+   width: 100vw;
+   z-index: 10;
+}
+.mobile-buttons-container {
+   position: absolute;
+   height: 0;
+   width: 100vw;
+   overflow-y: hidden;
+   transition: 1s ease-out;
+   -o-transition: 1s ease-out;
+   -moz-transition: 1s ease-out;
+   -webkit-transition: 1s ease-out;
+   background-color: #023d69;
+}
+.expanded {
+   height: 100vh;
+   transition: 1s ease-out;
+   -o-transition: 1s ease-out;
+   -moz-transition: 1s ease-out;
+   -webkit-transition: 1s ease-out;
+   padding-top: 80px;
+
+}
+.button-wrapper {
+   padding: 5px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.hamburger-container {
+   position: absolute;
+   padding: 20px;
+   z-index: 11;
+}
+
+.hamburger-bar {
+   width: 35px;
+   height: 5px;
+   background-color: #023d69;
+   margin: 6px 0;
+   transition: 0.4s;
+   -o-transition: 0.4s;
+   -moz-transition: 0.4s;
+   -webkit-transition: 0.4s;
+ }
+
+ .clicked .hamburger-bar {
+   background-color: white;
+ }
+
+ .clicked .hamburger-bar-1 {
+   transform: translate(0, 11px) rotate(-45deg);
+ }
+ 
+ .clicked .hamburger-bar-2 {opacity: 0;}
+ 
+ .clicked .hamburger-bar-3 {
+   transform: translate(0, -11px) rotate(45deg);
+ }

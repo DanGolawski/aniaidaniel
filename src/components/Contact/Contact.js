@@ -8,11 +8,11 @@ function Contact(props) {
    return (
       <div className='contact-container page'>
          <img className='logo-image' src={logo}></img>
-         <h1>Telefon:</h1>
+         <h1 className='header-big'>Telefon:</h1>
          <h2 className='bold'>515451515</h2>
-         <h1>e-mail:</h1>
+         <h1 className='header-big'>e-mail:</h1>
          <h2 className='bold'>aniaidaniel.kontakt@gmail.com</h2>
-         <h1>Social Media</h1>
+         <h1 className='header-big'>Social Media</h1>
          <div className='social-media-container'>
             <a href='https://www.instagram.com/matematyka.ania.daniel/'>
                <img className='social-media-logo' src={instagram}></img>
@@ -20,7 +20,7 @@ function Contact(props) {
             <a href='https://www.youtube.com/channel/UCDGgQza1qp7aLK2yd6tLnwQ'>
                <img className='social-media-logo' src={youtube}></img>
             </a>
-            <a>
+            <a href='https://www.tiktok.com/@matematyka.ania.daniel'>
                <img className='social-media-logo' src={tiktok}></img>
             </a>
          </div>

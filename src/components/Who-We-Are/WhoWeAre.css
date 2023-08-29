@@ -12,3 +12,22 @@
    height: 100%;
    margin-right: 20px;
 }
+
+.person-description {
+   font-size: 2.2vw;
+}
+
+@media only screen and (max-width: 800px) {
+   .row {
+      position: relative;
+   }
+   .profile-image {
+      position: absolute;
+      margin: auto;
+      opacity: 0.2;
+   }
+   .person-description {
+      z-index: 10;
+      font-size: 1rem;
+   }
+}

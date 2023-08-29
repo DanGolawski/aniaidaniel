@@ -1,9 +1,10 @@
 import './MobileApp.css';
 import mobileApp from '../../resources/mobile.png';
+import Button from '../Home/Button/Button';
 
 function MobileApp(props) {
    return (
-      <div className='my-container page'>
+      <div className='mobile-container page'>
          <img className='mobile-app' src={mobileApp}></img>
          <div className='app-description-container'>
             <p className='main-paragraph'>Obserwujemy potrzeby naszych uczniów, dlatego stworzyliśmy darmową aplikację, która pomoże Ci w samodzielnej pracy.</p>
@@ -13,7 +14,11 @@ function MobileApp(props) {
             <p>- zadania do matury</p>
             <p>- szybki dostęp do naszych social mediów</p>
             <p>- dodatkowe materiały samorozwojowe</p>
+            <div class='button-container'>
+               <a href='https://dangolawski.github.io/math-app/home'><Button title='Przejdź do aplikacji' white={true}></Button></a>
+            </div>
          </div>
+         
       </div>
    );
 }

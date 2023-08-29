@@ -1,5 +1,4 @@
-.element-body {
-   width: 30%;
+.list-element-body {
    background-color: #023D69;
    color: white;
    margin: 20px;
@@ -9,4 +8,19 @@
    padding: 20px;
    display: flex;
    align-items: center;
+   min-width: 100px;
+}
+
+.list-element-header {
+   font-size: max(1.2vw, 2rem);
+}
+
+@media only screen and (max-width: 600px) {
+   .list-element-body {
+      width: 75%;
+      margin: 10px;
+   }
+   .list-element-header {
+      font-size: 6.5vw;
+   }
 }

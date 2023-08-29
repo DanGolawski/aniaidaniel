@@ -11,7 +11,7 @@ const additionalTitles = [
 function Additionals(props) {
    return (
       <div className='additionals-main-container page'>
-         <img className='person-image' src={daniel}></img>
+         <img className='additionals-person-image' src={daniel}></img>
          <div className='additionals-container'>
          {
             additionalTitles.map(title => <ListElement title={title}></ListElement>)

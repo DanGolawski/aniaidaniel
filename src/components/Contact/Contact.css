@@ -19,3 +19,40 @@
    margin: 10px;
 }
 
+@media only screen and (max-width: 1000px) {
+   .logo-image {
+      width: 30vw;
+   }
+
+   h1 {
+      font-size: 6vw;
+   }
+   
+   h2 {
+      font-size: 4vw;
+   }
+
+   .social-media-logo {
+      width: 10vw;
+   }
+} 
+
+@media only screen and (max-width: 600px) {
+   .logo-image {
+      width: 30vw;
+   }
+
+   h1 {
+      font-size: 12vw;
+   }
+   
+   h2 {
+      font-size: 8vw;
+   }
+
+   .social-media-logo {
+      width: 20vw;
+   }
+}
+
+
